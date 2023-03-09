@@ -1,0 +1,260 @@
+{
+  "version": 1,
+  "settings": {
+    "appearanceTools": false,
+    "typography": {
+      "dropCap": false,
+      "fontFamilies": [
+        {
+          "fontFamily": "\"IBM Plex Sans\", sans-serif;",
+          "name": "IBM Plex Sans",
+          "slug": "ibm-plex-sans",
+          "fontFace": [
+            {
+              "fontFamily": "IBM Plex Sans",
+              "fontWeight": "600",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": [ "file:./assets/fonts/ibm_plex_sans/IBMPlexSans-SemiBold.ttf"]
+            },
+            {
+              "fontFamily": "IBM Plex Sans",
+              "fontWeight": "700",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": [ "file:./assets/fonts/ibm_plex_sans/IBMPlexSans-Bold.ttf"]
+            }
+          ]
+        },
+        {
+          "fontFamily": "\"IBM Plex Serif\", sans-serif;",
+          "name": "IBM Plex Serif",
+          "slug": "ibm-plex-serif",
+          "fontFace": [
+            {
+              "fontFamily": "IBM Plex Serif",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": [ "file:./assets/fonts/ibm_plex_serif/IBMPlexSerif-Regular.ttf"]
+            },
+            {
+              "fontFamily": "IBM Plex Serif",
+              "fontWeight": "400",
+              "fontStyle": "italic",
+              "fontStretch": "normal",
+              "src": [ "file:./assets/fonts/ibm_plex_serif/IBMPlexSerif-Italic.ttf"]
+            },
+            {
+              "fontFamily": "IBM Plex Serif",
+              "fontWeight": "600",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": [ "file:./assets/fonts/ibm_plex_serif/IBMPlexSerif-SemiBold.ttf"]
+            },
+            {
+              "fontFamily": "IBM Plex Serif",
+              "fontWeight": "600",
+              "fontStyle": "italic",
+              "fontStretch": "normal",
+              "src": [ "file:./assets/fonts/ibm_plex_serif/IBMPlexSerif-SemiBoldItalic.ttf"]
+            },
+            {
+              "fontFamily": "IBM Plex Serif",
+              "fontWeight": "700",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": [ "file:./assets/fonts/ibm_plex_serif/IBMPlexSerif-Bold.ttf"]
+            },
+            {
+              "fontFamily": "IBM Plex Serif",
+              "fontWeight": "700",
+              "fontStyle": "italic",
+              "fontStretch": "normal",
+              "src": [ "file:./assets/fonts/ibm_plex_serif/IBMPlexSerif-BoldItalic.ttf"]
+            }
+          ]
+        },
+        {
+          "fontFamily": "\"IBM Plex Mono\",monospace;",
+          "name": "IBM Plex Mono",
+          "slug": "ibm-plex-mono",
+          "fontFace": [
+            {
+              "fontFamily": "IBM Plex Mono",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": [ "file:./assets/fonts/ibm_plex_mono/IBMPlexMono-Regular.ttf"]
+            }
+          ]
+        }
+      ],
+      "fontSizes": [
+        {
+          "__comment": "16px",
+          "size": "1rem", 
+          "slug": "small"
+        },
+        {
+          "__comment": "18px - 20px",
+          "size": "clamp(1.125rem, 1.082627118644068rem + 0.211864406779661vw, 1.25rem)",
+          "slug": "medium"
+        },
+        {
+          "__comment": "23px - 26.7px",
+          "size": "clamp(1.438rem, 1.3596949152542372rem + 0.3915254237288137vw, 1.669rem)",
+          "slug": "large"
+        },
+        {
+          "__comment": "23px - 26.7px",
+          "size": "clamp(1.125rem, 1.082627118644068rem + 0.211864406779661vw, 1.25rem)",
+          "slug": "headline-s",
+          "name": "Headline S"
+        },
+        {
+          "__comment": "23px - 26.7px",
+          "size": "clamp(1.438rem, 1.3596949152542372rem + 0.3915254237288137vw, 1.669rem)",
+          "slug": "headline-m",
+          "name": "Headline M"
+        },
+        {
+          "__comment": "23px - 26.7px",
+          "size": "clamp(1.956rem, 1.8668474576271186rem + 0.44576271186440664vw, 2.219rem)",
+          "slug": "headline-l",
+          "name": "Headline L"
+        },
+        {
+          "__comment": "23px - 26.7px",
+          "size": "clamp(2.444rem, 2.268067796610169rem + 0.8796610169491528vw, 2.963rem)",
+          "slug": "headline-xl",
+          "name": "Headline XL"
+        }
+      ]
+    },
+    "custom": {
+      "spacing": {
+        "small": "clamp(24px, 5vw, 32px)",
+        "large": "clamp(3.5rem, 15vw, 9rem)"
+      },
+      "color": {
+        
+      }
+    },
+    "color": {
+      "background": false,
+			"link": false,
+			"text": false,
+      "palette": [
+        {
+          "color": "#F6FAFE",
+          "name": "Header",
+          "slug": "header"
+        }
+      ]
+    },
+    "layout": {
+      "contentSize": "740px",
+      "wideSize": "1264px"
+    },
+    "spacing": {
+      "blockGap": null,
+      "margin": true,
+      "padding": true,
+      "units": [ "px", "em", "rem", "vh", "vw", "%"]
+    }
+  },
+  "styles": {
+    "elements": {
+      "h1": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--ibm-plex-sans)",
+          "fontWeight": "700",
+          "fontSize": "clamp(2.444rem, 2.268067796610169rem + 0.8796610169491528vw, 2.963rem)",
+          "lineHeight": "1.2"
+        }
+      },
+      "h2": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--ibm-plex-sans)",
+          "fontWeight": "700",
+          "fontSize": "clamp(1.956rem, 1.8668474576271186rem + 0.44576271186440664vw, 2.219rem)",
+          "lineHeight": "1.2"
+        }
+      },
+      "h3": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--ibm-plex-sans)",
+          "fontWeight": "700",
+          "fontSize": "clamp(1.438rem, 1.3596949152542372rem + 0.3915254237288137vw, 1.669rem)",
+          "lineHeight": "1.2"
+        }
+      },
+      "h4": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--ibm-plex-sans)",
+          "fontWeight": "700",
+          "fontSize": "clamp(1.125rem, 1.082627118644068rem + 0.211864406779661vw, 1.25rem)",
+          "lineHeight": "1.2"
+        }
+      },
+      "h5": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--ibm-plex-sans)",
+          "fontWeight": "700",
+          "fontSize": "clamp(1.125rem, 1.082627118644068rem + 0.211864406779661vw, 1.25rem)",
+          "lineHeight": "1.2",
+          "letterSpacing": "1.25px",
+          "textTransform": "uppercase"
+        }
+      },
+      "h6": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--ibm-plex-sans)",
+          "fontWeight": "600",
+          "fontSize": "1rem",
+          "lineHeight": "1.2",
+          "letterSpacing": "2.50px",
+          "textTransform": "uppercase"
+        }
+      }
+    },
+    "blocks": {
+      "core/post-title": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--ibm-plex-sans)",
+          "fontWeight": "700",
+          "fontSize": "var(--wp--preset--font-size--headline-xl)"
+        }
+      },
+      "core/post-template": {
+        "border": {
+          "width": "0"
+        }
+      },
+      "core/heading": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--ibm-plex-sans)",
+          "fontWeight": "700",
+          "lineHeight": 1.2
+        },
+        "spacing": {
+          "margin": {
+            "top": "0px",
+            "bottom": "0.5rem"
+          }
+        }
+      }
+    },
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--ibm-plex-serif)",
+      "lineHeight": 1.5
+    },
+    "spacing": {
+      "padding": {
+        "left": "2rem",
+        "right": "2rem"
+      }
+    }
+  }
+}
